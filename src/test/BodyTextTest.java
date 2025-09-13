@@ -65,3 +65,4 @@ public class BodyTextTest {
     assertEquals("text editor", this.b2.getText());
 
   }
+}
