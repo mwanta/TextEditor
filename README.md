@@ -13,7 +13,7 @@ Planned improvements:
 
 This program can be run in an IDE with the provided code.
 
-I was the sole contributor to this project.
+I am the sole contributor to this project.
 
 Screenshots of the text editor:
 
