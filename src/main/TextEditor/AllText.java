@@ -39,4 +39,11 @@ public interface AllText {
    * @return the length as an integer of this text.
    */
   int getLength();
+
+  /**
+   * Returns the text of this text in the form of a String.
+   *
+   * @return the String representing this text.
+   */
+  String getText();
 }
