@@ -16,9 +16,14 @@ public class TextWorld extends World {
    *
    * @param textSpace : the text being displayed in the world.
    * @param cursorPos : the current position of the cursor in the world.
+   * @throws IllegalArgumentException if the cursor position is less than 0.
    */
   public TextWorld(AllText textSpace, int cursorPos) {
     this.textSpace = textSpace;
+
+    if (cursorPos < 0) {
+      throw new IllegalArgumentException("cursor position must be greater than zero");
+    }
     this.cursorPos = cursorPos;
   }
 
