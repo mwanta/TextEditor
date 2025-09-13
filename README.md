@@ -1,3 +1,4 @@
+# TextEditor
 A basic text editor that has the ability to type, backspace, and track location with a cursor.
 
 This is a work in progress, the current functionality is:
