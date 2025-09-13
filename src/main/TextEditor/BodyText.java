@@ -111,5 +111,10 @@ public class BodyText implements AllText {
     return this.text.length();
   }
 
+  @Override
+  public String getText() {
+    return this.text;
+  }
+
 
 }
