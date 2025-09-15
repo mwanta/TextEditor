@@ -11,8 +11,6 @@ Planned improvements:
 - add ability to enter the go down a line.
 - add other classes of text, such as a header or subtext.
 
-This program can be run in an IDE with the provided code.
-
 I am the sole contributor to this project.
 
 Screenshots of the text editor:
