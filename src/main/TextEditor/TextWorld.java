@@ -48,7 +48,7 @@ public class TextWorld extends World {
    * @return the World with the updated information.
    */
   public World onKeyEvent(String key) {
-    //to handle all single & printable characters (letters, digits, symbols, etc).
+    //to handle all single & printable characters (letters, digits, symbols, spaces, etc).
     if (key.length() == 1) {
       return new TextWorld(this.textSpace.type(key, this.cursorPos), this.cursorPos + 1);
     }
