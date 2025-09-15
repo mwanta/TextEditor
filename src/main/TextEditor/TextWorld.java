@@ -48,20 +48,34 @@ public class TextWorld extends World {
    * @return the World with the updated information.
    */
   public World onKeyEvent(String key) {
-    if (key.equals("backspace") && this.cursorPos > 0) {
-      return new TextWorld(this.textSpace.backspace(this.cursorPos), this.cursorPos - 1);
-    }
-    if (key.equals("left") && this.cursorPos > 0) {
-      return new TextWorld(this.textSpace, cursorPos - 1);
-    }
-    else {
-      if (key.equals("right") && this.cursorPos < this.textSpace.getLength()) {
-        return new TextWorld(this.textSpace, cursorPos + 1);
-      }
-    }
-
+    //for single letter inputs
+    if (key.length() == 1 && Character.isLetter(key.charAt(0)) || key.equals(" ")) {
       return new TextWorld(this.textSpace.type(key, this.cursorPos), this.cursorPos + 1);
     }
+
+    //to handle special key cases
+    return switch (key) {
+      case "backspace" -> {
+        if (this.cursorPos > 0) {
+          yield new TextWorld(this.textSpace.backspace(this.cursorPos), this.cursorPos - 1);
+        }
+        yield this;
+      }
+      case "left" -> {
+        if (this.cursorPos > 0) {
+          yield new TextWorld(this.textSpace, cursorPos - 1);
+        }
+        yield this;
+      }
+      case "right" -> {
+        if (this.cursorPos < this.textSpace.getLength()) {
+          yield new TextWorld(this.textSpace, cursorPos + 1);
+        }
+        yield this;
+      }
+      default -> this;
+    };
+  }
 
 
 
