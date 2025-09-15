@@ -62,7 +62,8 @@ public class BodyText implements AllText {
     WorldImage result = new EmptyImage();
     int charWidth = 12;
 
-    //creates each character of text individually to determine if it should be blue or black.
+    //creates each character of text individually to determine if it should be blue or black
+    //depending on if its index matches the cursor position.
     for (int i = 0; i < this.text.length(); i++) {
       String letter = this.text.substring(i, i + 1);
       Color textColor = (i == cursorPos) ? Color.blue : Color.black;
