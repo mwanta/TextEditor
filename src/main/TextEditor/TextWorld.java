@@ -49,12 +49,8 @@ public class TextWorld extends World {
    */
   public World onKeyEvent(String key) {
     //to handle all single & printable characters (letters, digits, symbols, etc).
-    //Utilizes the ASCII printable range.
     if (key.length() == 1) {
-      char input = key.charAt(0);
-      if (input >= 32 && input <= 126) {
-        return new TextWorld(this.textSpace.type(key, this.cursorPos), this.cursorPos + 1);
-      }
+      return new TextWorld(this.textSpace.type(key, this.cursorPos), this.cursorPos + 1);
     }
 
     //to handle special key cases
