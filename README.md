@@ -25,7 +25,8 @@ Screenshots of the text editor:
 <img width="566" height="356" alt="Screenshot 2025-09-13 at 1 36 35 PM" src="https://github.com/user-attachments/assets/e04fd6d7-a630-499d-8426-0b9ff25b7fbe" />
 
 
-<img width="566" height="356" alt="Screenshot 2025-09-13 at 1 30 23 PM" src="https://github.com/user-attachments/assets/a54f0378-2efc-4312-8a79-f85ab5fda1ed" />
+<img width="296" height="195" alt="Screenshot 2025-09-15 at 11 18 49 PM" src="https://github.com/user-attachments/assets/b60b3056-8e59-4fdb-a4ce-504825b78c99" />
+
 
 Can delete at any point:
 
