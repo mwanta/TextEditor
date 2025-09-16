@@ -78,7 +78,7 @@ public class TextWorld extends World {
   }
 
   /**
-   * Allows the user to click on a letter to move the cursor.
+   * Allows the user to click on a character to move the cursor.
    *
    * @param pos : the position click with the mouse.
    * @return the world with the position of the cursor changed relative to where
