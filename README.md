@@ -2,7 +2,8 @@
 A text editor that supports text insertion and deletion at any position, with real-time cursor tracking and highlighting.
 
 This is a work in progress, the current functionality is:
-- track location with a blue cursor. This cursor can move with the left and right arrow keys. 
+- track location with a blue cursor. This cursor can move with the left and right arrow keys. The cursor will also move
+  to a clicked position. 
 - type new characters at any space in the editor before the cursor.
 - backspace to delete charaters at any space in the editor before the cursor.
 
