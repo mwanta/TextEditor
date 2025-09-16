@@ -77,6 +77,36 @@ public class TextWorld extends World {
     };
   }
 
+  /**
+   * Allows the user to click on a letter to move the cursor.
+   *
+   * @param pos : the position click with the mouse.
+   * @return the world with the position of the cursor changed relative to where
+   *     the user clicked.
+   */
+  public World onMouseClicked(Posn pos) {
+
+    //adjusting the x-coordinate of the mouse as the text is centered.
+    int textWidth = this.textSpace.getLength() * 12;
+    int textXPosn = (600 - textWidth) / 2;
+
+    int relativeMousePosn = pos.x - textXPosn;
+    int indexClicked = relativeMousePosn / 12;
+
+    //bounds checking and returning the new world.
+    if (indexClicked < 0) {
+      return new TextWorld(this.textSpace, 0);
+    }
+    else {
+      if (indexClicked >= this.textSpace.getLength()) {
+        return new TextWorld(this.textSpace, this.textSpace.getLength());
+      }
+      else {
+        return new TextWorld(this.textSpace, indexClicked);
+      }
+    }
+  }
+
 
 
 }
