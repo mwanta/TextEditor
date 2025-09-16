@@ -7,7 +7,7 @@ This is a work in progress, the current functionality is:
     - The cursor will move to a clicked position.
     - This cursor can also move with the left and right arrow keys.
 - Type new characters at any space in the editor before the cursor.
-- Backspace to delete charaters at any space in the editor before the cursor.
+- Backspace to delete characters at any space in the editor before the cursor.
 - Ability to shift for uppercase and special symbols.
   
 
