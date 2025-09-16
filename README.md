@@ -19,22 +19,23 @@ I am the sole contributor to this project.
 
 Screenshots of the text editor:
 
-<img width="566" height="356" alt="Screenshot 2025-09-13 at 1 30 09 PM" src="https://github.com/user-attachments/assets/6ba5bd84-9d1e-4b2c-a0a9-9348e68c67a0" />
-
-
-<img width="566" height="356" alt="Screenshot 2025-09-13 at 1 36 35 PM" src="https://github.com/user-attachments/assets/e04fd6d7-a630-499d-8426-0b9ff25b7fbe" />
-
-
 <img width="296" height="195" alt="Screenshot 2025-09-15 at 11 18 49 PM" src="https://github.com/user-attachments/assets/b60b3056-8e59-4fdb-a4ce-504825b78c99" />
+
+
+<img width="296" height="195" alt="Screenshot 2025-09-15 at 11 23 24 PM" src="https://github.com/user-attachments/assets/397bc606-c288-43a0-b594-4fc2c2f902be" />
+
+
+<img width="296" height="195" alt="Screenshot 2025-09-15 at 11 24 08 PM" src="https://github.com/user-attachments/assets/84a0c475-f37d-4509-9659-1e5db02e4264" />
 
 
 Can delete at any point:
 
 
-<img width="566" height="356" alt="Screenshot 2025-09-13 at 1 36 13 PM" src="https://github.com/user-attachments/assets/b0e5a6c3-9965-459b-9e64-09a0bc4c957f" />
+<img width="296" height="195" alt="Screenshot 2025-09-15 at 11 25 27 PM" src="https://github.com/user-attachments/assets/dc8ad1fc-8249-4c1e-80ee-4b37430c7696" />
+
+
 
 Can add at any point:
-
 
 
 <img width="296" height="195" alt="Screenshot 2025-09-15 at 11 14 19 PM" src="https://github.com/user-attachments/assets/bf831f8a-f689-49b4-996b-64a757a7a31f" />
