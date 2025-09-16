@@ -2,15 +2,18 @@
 A text editor that supports text insertion and deletion at any position, with real-time cursor tracking and highlighting.
 
 This is a work in progress, the current functionality is:
-- track location with a blue cursor. This cursor can move with the left and right arrow keys. The cursor will also move
-  to a clicked position. 
-- type new characters at any space in the editor before the cursor.
-- backspace to delete charaters at any space in the editor before the cursor.
+- Track location with a blue cursor.
+
+    - The cursor will move to a clicked position.
+    - This cursor can also move with the left and right arrow keys.
+- Type new characters at any space in the editor before the cursor.
+- Backspace to delete charaters at any space in the editor before the cursor.
+- Ability to shift for uppercase and special symbols.
+  
 
 Planned improvements:
-- add ability to shift for uppercase and special symbols.
-- add ability to enter the go down a line.
-- add other classes of text, such as a header or subtext.
+- Add ability to enter to go down a line.
+- Add other classes of text, such as a header or subtext.
 
 I am the sole contributor to this project.
 
@@ -29,8 +32,9 @@ Can delete at any point:
 
 <img width="566" height="356" alt="Screenshot 2025-09-13 at 1 36 13 PM" src="https://github.com/user-attachments/assets/b0e5a6c3-9965-459b-9e64-09a0bc4c957f" />
 
-
 Can add at any point:
 
-<img width="566" height="356" alt="Screenshot 2025-09-13 at 1 35 02 PM" src="https://github.com/user-attachments/assets/8cc01fe1-4d45-4f53-b0ca-b6b27716a908" />
+
+
+<img width="296" height="195" alt="Screenshot 2025-09-15 at 11 14 19 PM" src="https://github.com/user-attachments/assets/bf831f8a-f689-49b4-996b-64a757a7a31f" />
 
